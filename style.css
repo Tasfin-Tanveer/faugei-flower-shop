@@ -64,6 +64,7 @@ nav{
     align-items: end;
     padding: 0px 150px;
     margin-top: 164px;
+    margin-bottom: 120px;
 }
 
 .banner-title{
@@ -77,6 +78,23 @@ nav{
     text-align: left;
 }
 
+/* card style */
+
+.card-container{
+    text-align: center;
+}
+
+.card-container-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+.card-title-description{
+    max-width: 888px;
+    justify-items: center;
+    margin: auto;
+    line-height: 27px;
+}
+
 
 
 
@@ -88,11 +106,16 @@ nav{
     }
     nav{
         padding: 13px 16px;
+        margin-bottom: 30px;
+    }
+    nav figure{
+        width: 63px;
     }
 
     .banner{
         flex-direction: column-reverse;
-        padding: 0px;    
+        padding: 0px;   
+        margin-top: 0px; 
     }
 
     .banner-text{
@@ -110,6 +133,8 @@ nav{
     .banner-description{
         font-size: .875rem;
         padding: 0px 16px;
+        line-height: 17px;
+        font-weight: 400;
     }
 }
 
