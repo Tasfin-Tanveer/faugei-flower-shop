@@ -159,6 +159,17 @@ nav{
     width: 286px;
     margin-top: -720px;
     margin-left: 350px;
+    animation: spinY 3s linear infinite;
+    transform-style: preserve-3d;
+}
+
+@keyframes spinY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 
 .seller{
@@ -317,7 +328,7 @@ nav{
   background-color: #E95A08;
   color: white;
   border: none;
-  padding: 26px 50px;
+  padding: 15px 50px;
   font-size: 16px;
   cursor: pointer;
   transition: background 0.3s ease;
