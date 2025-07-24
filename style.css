@@ -277,7 +277,7 @@ nav{
     text-align: center;
     padding: 195px;
     margin-top: 195px;
-    margin-bottom: 195px;
+    margin-bottom: 50px;
     background-image: linear-gradient(
       to bottom,
       rgba(7, 51, 79, .4),
@@ -326,7 +326,43 @@ nav{
 .subscribe-box button:hover {
   background-color: orangered;
   color: white;
-} 
+}
+
+/* footer style */
+
+.footer{
+    margin: 0px 150px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 110.67px;
+}
+
+.footer-1{
+    max-width: 359px;
+}
+.footer-1 img{
+    width: 135px;
+    margin-bottom: 10px;
+}
+
+.footer-2{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: #8987A1; 
+}
+
+.footer-3{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: #8987A1; 
+}
+.footer-4{
+    display: flex;
+    gap: 24px;
+
+}
 
 
 
@@ -478,6 +514,20 @@ nav{
         padding: 14px 20px;
     }
 
+    .footer{
+        flex-direction: column;
+        margin: 0px 5px;
+        gap: 20px;
+    }
+
+    .footer-1 p{
+    font-size: 1rem;
+    max-width: 100%;
+    }
+    .footer-1 img{
+    width: 180px;
+    margin-bottom: 10px;
+    }
 
 }
 
