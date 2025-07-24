@@ -39,22 +39,15 @@ nav{
     margin-bottom: 120px;
 }
 
-.nav-items{
+.navbar{
     display: flex;
-    list-style: none;
     gap: 48px;
 }
 
 .nav-hide{
     display: flex;
     gap: 48px;
-}
-
-.nav-items li a{
-    text-decoration: none;
     color: #8987A1;
-    font-size: 1rem;
-    font-weight: 400;
 }
 
 /* banner style */
