@@ -271,6 +271,62 @@ nav{
     text-decoration: underline;    
 }
 
+/* join style */
+
+.join{
+    text-align: center;
+    padding: 195px;
+    margin-top: 195px;
+    margin-bottom: 195px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(7, 51, 79, .4),
+      rgba(7, 51, 79, .4)
+    ),
+    url(./assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 533px;
+}
+
+.join h3{
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.subscribe-box {
+  display: flex;
+  overflow: hidden;
+  width: 830px;
+  max-width: 90%;
+  background-color: white;
+  margin-left: 110px;
+}
+
+.subscribe-box input[type="email"] {
+  flex: 1;
+  border: none;
+  padding: 8px 20px;
+  font-size: 1.25rem;
+  outline: none;
+}
+
+.subscribe-box button {
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  padding: 26px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe-box button:hover {
+  background-color: orangered;
+  color: white;
+} 
 
 
 
@@ -372,7 +428,6 @@ nav{
         padding-top: 0px;
     }
 
-    /* collage style */
     .photo-collage{
     margin: 0px 22px;    
     }
@@ -397,6 +452,30 @@ nav{
     }
     .collage-btn-3{
         font-size: 1rem;
+    }
+
+    .join{
+        padding: 70px 5px;
+        margin-top: 50px;
+        width: 412px;
+        height: 275px;
+        margin-bottom: 50px;
+    }
+
+    .join h3{
+        font-size: 1.25rem;
+    }
+
+    .subscribe-box {
+        flex-direction: row;
+        width: 100%;
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .subscribe-box button{
+        width: 100%;
+        padding: 14px 20px;
     }
 
 
