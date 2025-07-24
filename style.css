@@ -122,21 +122,21 @@ nav{
 }
 
 .card-container button {
-  border: 1px solid rgb(233, 90, 8);
-  background: rgb(233, 90, 8);
+  border: 1px solid #E95A08;
+  background: #E95A08;
   padding: 10px 25px;
   color: white;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 600;
   margin-top: 20px;
   cursor: pointer;
   width: 270px;
 }
 
 .card-container button:hover{
-  border: 1px solid rgb(233, 90, 8);
+  border: 1px solid #E95A08;
   background: transparent;
-  color: rgb(233, 90, 8);
+  color: #E95A08;
 }
 
 /* seller style */
@@ -166,7 +166,7 @@ nav{
 }
 
 .seller-title{
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 700;
     line-height: 68px;
     max-width: 520px;
@@ -179,6 +179,96 @@ nav{
 
 .seller ul{
     list-style-type: disc ;
+}
+
+/* photo collage style */
+
+.photo-collage{
+    margin: 135px 150px;
+}
+
+.photo-collage-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.photo-collage-description{
+    text-align: center;
+}
+
+.photo-container{
+    display: flex;
+    gap: 28px;
+    margin-top: 100px;
+}
+
+.collage-1{
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, .4),
+      rgba(0, 0, 0, .4)
+    ),
+    url(./assets/deal-bloom.png);
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+    color: white;
+    text-align: center;
+    padding: 70px 50px;
+    margin-bottom: 20px;
+}
+
+.collage-2{
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, .4),
+      rgba(0, 0, 0, .4)
+    ),
+    url(./assets/deal-ana.png);
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+    color: white;
+    text-align: center;
+    padding: 70px 50px;
+}
+
+.collage-3{
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, .4),
+      rgba(0, 0, 0, .4)
+    ),
+    url(./assets/deal-zabo.png);
+    width: 753px;
+    height: 423px;
+    border-radius: 22px;
+    color: white;
+    text-align: center;
+    padding: 172px 50px;
+}
+
+.collage-name{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.collage-name-3{
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.collage-btn{
+    font-weight: 600;
+    text-decoration: underline;    
+}
+
+.collage-btn-3{
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-decoration: underline;    
 }
 
 
@@ -281,6 +371,35 @@ nav{
         font-size: 14px;
         padding-top: 0px;
     }
+
+    /* collage style */
+    .photo-collage{
+    margin: 0px 22px;    
+    }
+
+    .photo-container{
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 100px;
+    }
+
+    .collage-3{
+        width: 367px;
+        height: 201px;
+        padding: 70px 50px;
+    }
+    .collage-name{
+        font-size: 1.25rem;
+    }
+    .collage-name-3{
+    font-size: 1.25rem;
+    font-weight: 700;
+    }
+    .collage-btn-3{
+        font-size: 1rem;
+    }
+
+
 }
 
 
